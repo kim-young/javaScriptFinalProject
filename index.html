@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript Final Project - Pizza Order</title>   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="frm">
+                <img src="https://www.myanmore.com/yangon/wp-content/uploads/sites/2/2014/06/TPC-Logo-01.png" alt="logo">
+                <form id="formMenu">
+                    <div class="menu ">
+                        <h3>Select Size:</h3>
+                        <input class="size" type="radio" name="Size" value="Personal Pizza" checked> Personal<br>
+                        <input class="size"type="radio" name="Size" value="Medium Pizza"> Medium<br>
+                        <input class="size"type="radio" name="Size" value="Large Pizza"> Large<br>
+                        <input class="size"type="radio" name="Size" value="Extra Large Pizza"> Extra Large<br><br>
+                    </div>
+                    <div class="menu">
+                        <h3>Select Meats:</h3>
+                        <input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+                        <input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage<br>
+                        <input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br>
+                        <input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+                        <input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+                        <input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br><br>
+                        *+$1.00 each additional meat items beyond the first complementary meat item<br><br>
+                    </div>
+                    <div class="menu">
+                        <h3>Select Veggies:</h3>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Onions"> Onions<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Olives"> Olives<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Green Peppers"> Green Peppers<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Pineapple"> Pineapple<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Spinach"> Spinach<br>
+                        <input class="veggies" type="checkbox" name="Veggie" value="Jalapeno"> Jalapeno<br><br>
+                        *+$1.00 each additional veggie items beyond the first complementary veggie item<br><br>
+                    </div>
+                    <div class="menu">
+                        <h3>Select Cheese:</h3>
+                        <input class="cheese" type="radio" name="Cheese" value="Regular Cheese" checked> Regular Cheese<br>
+                        <input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
+                        <input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br><br>
+                    </div>
+                    <div class="menu">
+                        <h3>Select Sauce:</h3>
+                        <input class="sauce" type="radio" name="Sauce" value="Marinara Sauce" checked> Marinara Sauce<br>
+                        <input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce<br>
+                        <input class="sauce" type="radio" name="Sauce" value="Barbeque Sauce"> Barbeque Sauce<br>
+                        <input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br><br>
+                    </div>
+                    <div class="menu">
+                        <h3>Select Crust:</h3>
+                        <input class="crust" type="radio" name="Crust" value="Plain Crust" checked> Plain Crust<br>
+                        <input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+                        <input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br>
+                        <input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+                        <input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br><br>
+                    </div>
+                </form>
+                <div id="btn">
+                    <button class="button button1" onclick="getReceipt()">Place Order</button>
+                    <button class="button button2" onclick="clearAll()">Clear</button>           
+                </div>
+                <div id="cart">
+                    <div id="showText"></div>
+                    <div id="totalPrice"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/finalProject.js"></script>
+    </body>
+</html>

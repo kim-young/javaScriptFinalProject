@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0% !important;
+    padding: 0% !important;
+    background-image: url('http://del.h-cdn.co/assets/17/17/980x490/landscape-1493301997-ham-cheese-breakfast-pizza-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;  
+}
+
+img {
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+#frm {
+    margin-top: 6%;
+}
+
+.menu {
+    background-color: #fff;
+    border: 2px solid #000;
+    width: 200px;
+    height: 315px;
+    border-radius: 25px;
+    padding: 15px 15px 15px 25px;
+    text-align: left;
+    opacity: 0.75;
+    position: relative;
+    vertical-align: bottom;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#btn {
+    text-align: center;
+    margin: auto;   
+    margin: 30px 0;
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 24px;
+    transition-duration: 0.5s;
+    border-radius: 25px;   
+    margin: auto;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 1px solid #c75a5a
+}
+
+.button1:hover {
+    background-color: #c75a5a; 
+    color: white;
+}
+
+.button2 {
+    background-color: transparent;   
+    border: 1px solid #c75a5a
+}
+
+.button2:hover {
+    background-color: #c75a5a; 
+    color: white;
+}
+
+#cart {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0.5% auto;
+    width: 200px;
+    border-radius: 25px;
+    padding: 15px 15px 15px 25px;
+    align-self: center;
+    text-align: left;
+    opacity: 0;
+}
