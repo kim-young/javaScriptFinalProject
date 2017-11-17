@@ -37,6 +37,7 @@ img {
     vertical-align: bottom;
     margin: 0 auto;
     display: inline-block;
+    overflow:auto;
 }
 
 #btn {
@@ -88,7 +89,7 @@ img {
     opacity: 0;
     display: flex;    
     flex-wrap: wrap;
-    
+    overflow:auto;
 }
 
 #showText1 {
