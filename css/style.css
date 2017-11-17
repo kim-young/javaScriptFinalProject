@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow:auto;   
 }
 
 body {
@@ -85,4 +86,27 @@ img {
     align-self: center;
     text-align: left;
     opacity: 0;
+    display: flex;    
+    flex-wrap: wrap;
+    
+}
+
+#showText1 {
+	font-size: 13px;
+	padding: 1px 0 10px 10px;
+	width: 130px;
+    border-radius: 0 0 0 0;    
+}
+
+#showText2 {
+	font-size: 13px;
+	padding: 1px 0 10px 10px;
+	width: 30px;
+    border-radius: 0 0 0 0;
+    padding-top: 50px;
+}
+
+#totalPrice {
+    display: block;
+    margin: 0% auto;
 }
